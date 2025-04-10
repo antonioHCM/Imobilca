@@ -1,0 +1,5 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+$theme: mat.light-theme(mat.$indigo-palette, mat.$pink-palette); // Adjust colors as needed
+@include mat.all-component-themes($theme);
