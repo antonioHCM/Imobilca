@@ -1,0 +1,36 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fafafa;
+    color: #1e1e1e;
+  }
+  
+  mat-toolbar {
+    background-color: #ffffff;
+    color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    color: #555;
+  }
+  
