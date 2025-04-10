@@ -1,11 +1,14 @@
-// src/app/app.component.ts
 import { Component } from '@angular/core';
-import { LayoutComponent } from './layout/layout.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [LayoutComponent],
-  template: `<app-layout></app-layout>`,
+  imports: [MatToolbarModule, RouterOutlet],
+  template: `
+    <mat-toolbar color="primary">Imobilca</mat-toolbar>
+    <router-outlet></router-outlet>
+  `,
 })
 export class AppComponent {}
